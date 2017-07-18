@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
+   "scripts": {
+
+    "babel-node": "babel-node",
+    
+  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dzentay/project-lvl1-s116.git"
@@ -16,4 +23,17 @@
     "url": "https://github.com/dzentay/project-lvl1-s116/issues"
   },
   "homepage": "https://github.com/dzentay/project-lvl1-s116#readme"
+  
+  "devDependencies": {
+
+    "babel-cli": "*",
+
+    "babel-core": "*",
+   
+    "babel-preset-env": "*",
+
+    "babel-preset-stage-0": "*",
+
+      }
+  
 }
